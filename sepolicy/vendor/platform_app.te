@@ -43,6 +43,3 @@ allowxperm platform_app apk_data_file:file ioctl {
   FS_IOC_SETFLAGS
   FS_IOC_GETFLAGS
 };
-
-# Zram
-r_dir_file(platform_app, sysfs_zram)
