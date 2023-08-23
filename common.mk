@@ -434,6 +434,10 @@ PRODUCT_PACKAGES += \
     libjson \
     librmnetctl
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackagesGms
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.1-service.xiaomi-multihal \
