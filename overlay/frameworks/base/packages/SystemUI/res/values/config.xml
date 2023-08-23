@@ -65,6 +65,9 @@
     ignore the gaze detection and faceunlock package -->
     <string translatable="false" name="config_cameraProtectionExcludedPackages">org.pixelexperience.faceunlock,com.crdroid.faceunlock</string>
 
+    <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
+    <integer name="config_screenRecorderMaxFramerate">90</integer>
+
     <!-- Preferred max refresh rate at keyguard, if supported by the display. -->
     <integer name="config_keyguardMaxRefreshRate">60</integer>
 </resources>
